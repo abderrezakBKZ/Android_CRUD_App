@@ -28,17 +28,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/edit_position"/>
+
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/btn_submit"
-        android:background="@android:color/holo_blue_dark"
-        android:text="Submit"
-        android:textColor="@android:color/white"/>
-    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Add"
+        android:textColor="@android:color/white" />
+
+    <Button
         android:id="@+id/btn_open"
-        android:text="Open" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="See list" />
 
 </LinearLayout>
